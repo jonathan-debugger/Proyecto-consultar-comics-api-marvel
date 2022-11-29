@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <div class="container">
+        <div id="contenido" class="contenido">
+            <h1>Comics de marvel por año</h1>
+            <form action="">
+                <label for="lista_comics">
+                    <h2>Selecciona el año</h2>
+                    <select name="" id="lista_comics">
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                    </select>    
+                </label>
+                <label for="search" >
+                        <input type="search" id="search" placeholder="Buscar comic"> 
+                </label>
+                <input type="submit" >
+            </form>
+           <div class="container_comics">
+                <ul></ul>
+           </div>
+
+        </div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
